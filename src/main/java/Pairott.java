@@ -24,4 +24,9 @@ public class Pairott extends Animal {
     public void setWingspanLength(int wingspanLength) {
         this.wingspanLength = wingspanLength;
     }
+    
+    @Override
+    public void makeSound() {
+       System.out.print("The pairot squawked");
+    }
 }

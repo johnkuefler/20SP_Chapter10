@@ -27,6 +27,6 @@ public class Tiger extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() + " Tiger{" + "numberOfStripes=" + numberOfStripes + '}';
+        return "Animal name: " + super.getName() + " Tiger{" + "numberOfStripes=" + numberOfStripes + '}';
     }
 }

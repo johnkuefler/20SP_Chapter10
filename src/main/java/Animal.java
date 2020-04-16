@@ -15,12 +15,16 @@ public class Animal {
         this.speciesName = name;
     }
   
-    public String getName() {
+    public final String getName() {
         return speciesName;
     }
 
-    public void setName(String name) {
+    public final void setName(String name) {        
         this.speciesName = name;
+    }
+    
+    public void makeSound() {
+        System.out.println("The animal made a sound");
     }
 
     @Override
